@@ -8,6 +8,7 @@ jobs:
       - run: make deps
       - run: make lint
       - run: make test
+      - run: make docker.build
 workflows:
   basic:
     jobs:
